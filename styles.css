@@ -15,8 +15,8 @@ body{
 	background: #90dffe;
 	overflow-x: hidden;
 	background-repeat: no-repeat;
-	animation: light 5s ease;
-	animation-delay: 3s;
+	animation: light 12s ease;
+	animation-delay: 3.5s;
 
 }
 
@@ -56,7 +56,7 @@ body{
 	position: relative;
 	box-shadow: 0px 0px 35px 15px #fff59d, inset 3px 3px 20px 0 #ffeb3b;
 	animation: corona .4s ease infinite;
-	animation-delay: 3s;	
+	animation-delay: 3.5s;	
 
 }
 
@@ -67,10 +67,8 @@ body{
 	}
 
 	100% {
-		box-shadow: 0px 0px 35px 15px #fff59d, inset 3px 3px 20px 0 #ffeb3b;
+		box-shadow: 0px 0px 30px 15px #fff59d, inset 3px 3px 20px 0 #ffeb3b;
 	}
-
-
 
 }
 
@@ -83,8 +81,8 @@ body{
 	height: 148px;
 	background: rgb(144, 223, 254);
 	border-radius: 50%;
-	animation: move 10s ease;
-	animation-delay: 3s;
+	animation: move 12s ease;
+	animation-delay: 3.5s;
 }
 
 @keyframes move {
